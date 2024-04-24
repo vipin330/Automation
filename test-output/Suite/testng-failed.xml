@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="org.testing.testScrpts.TC1_PostRequest">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- org.testing.testScrpts.TC1_PostRequest -->
+      <class name="org.testing.testScrpts.TC4_PutRequest">
+        <methods>
+          <include name="testCase4"/>
+        </methods>
+      </class> <!-- org.testing.testScrpts.TC4_PutRequest -->
+      <class name="org.testing.testScrpts.TC5_DeleteRequest">
+        <methods>
+          <include name="testCase5"/>
+        </methods>
+      </class> <!-- org.testing.testScrpts.TC5_DeleteRequest -->
+      <class name="org.testing.testScrpts.TC3_GetParticularRequest">
+        <methods>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- org.testing.testScrpts.TC3_GetParticularRequest -->
+      <class name="org.testing.testScrpts.TC2_GetAllRequest">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- org.testing.testScrpts.TC2_GetAllRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
